@@ -3,3 +3,4 @@ git commit -m "Add .env to .gitignore"
 .env
 node_modules/
 vendor/
+.env
