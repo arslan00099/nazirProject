@@ -12,7 +12,7 @@ $dotenv->load();
 
 // Now you can access the environment variables
 $connectionString = $_ENV['AZURE_STORAGE_ACCOUNT_KEY'];
-$containerName = "blobcontainer";
+$containerName = "nazircontianer";
 
 // Create Blob Client
 $blobClient = BlobRestProxy::createBlobService($connectionString);
